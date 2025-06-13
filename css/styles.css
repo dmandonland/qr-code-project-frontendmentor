@@ -10,7 +10,7 @@ body {
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 10px;
     margin: 30px auto;
     max-width: 280px;
     display: flex;
@@ -18,7 +18,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: fit-content;
+    width: 90%;
 }
 
 .qr_code {
