@@ -1,6 +1,6 @@
 body { 
     background-color: hsl(212, 45%, 89%);
-    padding: 20px;
+    padding: 80px;
     font-family: Outfit, sans-serif;
 }
 
@@ -11,17 +11,18 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    margin: 20px auto;
-    max-width: 400px;
+    margin: 30px auto;
+    max-width: 280px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: fit-content;
 }
 
 .qr_code {
-    width: 90%;
+    width: 100%;
     border-radius: 10px;
     margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -31,12 +32,13 @@ body {
     font-size: 24px;
     color: hsl(218, 44%, 22%);
     margin-bottom: 10px;
-    font-weight:bold
+    font-weight:bold;
+    max-width: 80%;
 }
 
 .first_text{
     font-size: 15px;
     color:hsl(220, 15%, 55%);
     padding: 0 20px;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
